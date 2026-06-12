@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+}
+body{
+    background-color: rgb(77, 22, 22);
+    color: #beb9b9;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 60px;
+    background: rgb(221, 219, 219);
+    box-shadow: 0 1px 10px grey;
+}
+nav a{
+    color: #0c0c0c;
+    text-decoration: none;
+    border-bottom: #222;
+    border-bottom: #333;
+}
+nav a:hover{
+    border-bottom: 2px solid #333;
+    color: #333;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 25px;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav h1{
+    color: black;
+}
+.hero{
+    text-align: center;
+    padding: 80px 20px;
+}
+.hero img{
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+.hero h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.hero p{
+    margin-bottom: 25px;
+}
+button{
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 6px;
+}
+section{
+    padding: 70px 80px;
+}
+section h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.skill-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card:hover{
+    color: #070707;
+    transform: translateY(3px);
+}
+.card{
+    background:  rgba(117, 44, 35, 0.87);
+    padding: 20px 40px;
+    box-shadow:0 2px 10px grey;
+    border-radius: 10px;
+}
+.project-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.project-card{
+    width: 300px;
+    background:  rgba(117, 44, 35, 0.87);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px grey;
+}
+.project-card:hover{
+    color: #e6dcdc;
+    transform: translateY(3px);
+}
+.project-card h3{
+    margin-bottom: 10px;
+}
+#contact{
+    text-align: center;
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.para{
+    text-align: center;
+}
+div img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.img {
+    display: flex;
+    flex-direction: row;
+    
+}
+textarea{
+    resize: vertical;
+}
+input,
+textarea{
+    width: 250px;
+    padding: 10px;
+    margin-top: 2px;
+    font-size: 16px;
+}
+.linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
